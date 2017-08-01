@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fake Blog</title>
+    <meta name="description" content="A fake blog for Coding Dojo about my dog, Poutine." >
+  </head>
+  <body>
+    <div id="main-content">
+      <h1>Poutine the Pup</h1>
+      <img src="img/Poutine.png" alt="Hi, I'm Poutine!" height=300 width=300 />
+      <p>Hi! I'm Poutine, a Golden Retriever/Chow Chow mix pup who lives with my parents in Seattle! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed libero ut neque semper vestibulum ac a massa. Morbi at elit efficitur magna ultrices vestibulum ac eu ipsum. Pellentesque nec bibendum metus, vel porttitor elit. Sed id tincidunt odio. Fusce augue odio, sodales ut commodo mattis, congue ut metus. Praesent vehicula dolor quis felis pretium, et convallis ante vulputate. Vivamus vel est eleifend, gravida nulla quis, consequat elit. Suspendisse est orci, tempus et metus sodales, faucibus cursus mauris.</p>
+      <h2>Some of my favorite things...</h2>
+      <ul>
+        <li>Staring at my dad all day</li>
+        <li>Panting</li>
+        <li>Treats</li>
+        <li>Chasing squirrels, birds and mice</li>
+        <li>Breakfast</li>
+        <li>Dinner</li>
+      </ul>
+      <p>If you want to follow me on my adventures <a href="https://www.instagram.com/poutinethepup/">follow me on Instagram!</a></p>
+
+      <h3>Some facts about my hometown</h3>
+      <table>
+        <thead>
+          <tr>
+            <th colspan=2>Seattle Facts</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>City Area</td>
+            <td>142.5 sq mi</td>
+          </tr>
+          <tr>
+            <td>Population</td>
+            <td>704,352</td>
+          </tr>
+          <tr>
+            <td>Average High Temp</td>
+            <td>60.3 °F</td>
+          </tr>
+          <tr>
+            <td>Average Low Temp</td>
+            <td>45.0 °F</td>
+          </tr>
+          <tr>
+            <td>Avergage Precipitation</td>
+            <td>37.49 in</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <h1>Take a quick survey before you go....</h1>
+    <form action="process.php" method="post">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name">
+      <br />
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name">
+      <br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <br />
+
+      <p>How did you find us?</p>
+      <label for="fb">Facebook</label>
+      <input type="radio" id="fb" name="findus" value="fb">
+
+      <label for="ig">Instagram</label>
+      <input type="radio" id="ig" name="findus" value="ig">
+
+      <label for="google">Google</label>
+      <input type="radio" id="google" name="findus" value="google">
+      <br />
+
+      <p>What type of content would you like to see?</p>
+      <label for="pics">More pictures</label>
+      <input type="checkbox" id="pics" name="content" value ="pics">
+
+      <label for="art">More articles</label>
+      <input type="checkbox" id="art" name="content" value ="art">
+
+      <label for="sea">More about Seattle</label>
+      <input type="checkbox" id="sea" name="content" value ="sea">
+
+      <label for="nada">Nothing, keep doing what you're doing</label>
+      <input type="checkbox" id="nada" name="content" value ="nada">
+      <br /><br />
+
+      <input type="submit" value="Click here to register">
+    </form>
+
+  </body>
+</html>
