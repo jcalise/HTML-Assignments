@@ -2,33 +2,44 @@
   background-color: #1C345E;
   width: 970px;
   padding: 10px;
+  margin: 0px auto;
 }
 a {
-  color: white;
+  color: #C2D6EC;
+}
+ul {
+  color: #C2D6EC;
 }
 .header {
   display:block;
   background-color: #CE3036;
-  margin: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   border-radius: 15px;
+  color: #C2D6EC;
 }
 .sidebar {
+  width: 225px;
   background-color: #2A7D8C;
   padding: 15px;
   border-radius: 20px;
   display: inline-block;
+  float: left;
 }
-.main {
+.content {
+  width: 670px;
   background-color: #0E1822;
   padding: 15px;
   border-radius: 20px;
   display: inline-block;
-  color: white;
+  color: #C2D6EC;
+  margin-left: 10px;
 }
 .footer {
   border-radius: 20px;
-  padding: 15px;
-  color: white;
+  padding: 10px;
+  color: #C2D6EC;
   background-color: #5E6673;
+  display: block;
+  margin-top: 10px;
 }
