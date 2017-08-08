@@ -9,6 +9,8 @@ a {
 }
 ul {
   color: #C2D6EC;
+  margin: 0px;
+  padding-left: 20px;
 }
 .header {
   display:block;
@@ -19,21 +21,21 @@ ul {
   color: #C2D6EC;
 }
 .sidebar {
-  width: 225px;
+  width: 200px;
   background-color: #2A7D8C;
-  padding: 15px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 10px;
   display: inline-block;
   float: left;
 }
 .content {
-  width: 670px;
+  width: 700px;
   background-color: #0E1822;
   padding: 15px;
   border-radius: 20px;
   display: inline-block;
   color: #C2D6EC;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .footer {
   border-radius: 20px;
@@ -42,4 +44,7 @@ ul {
   background-color: #5E6673;
   display: block;
   margin-top: 10px;
+}
+span {
+  color: #6D80CE;
 }
