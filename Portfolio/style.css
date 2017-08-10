@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 960px;
+  margin: 0px auto;
+}
+.header {
+  width: 960px;
+  height: 60px;
+  display: block;
+  background-color: #F6F6F6;
+}
+.header h1 {
+  font-family: "Comic sans", serif;
+  display: inline-block;
+  margin: 10px 0 0 15px;
+}
+.header h2 {
+  display: inline-block;
+  margin-left: 400px;
+}
+.main {
+  width: 960px;
+  height: 900px;
+  padding: 20px;
+  background: #1C0C10; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #6F5964, #1C0C10); /* Safari */
+  background: -o-radial-gradient(circle, #6F5964, #1C0C10); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #6F5964, #1C0C10); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #6F5964, #1C0C10); /* Standard syntax */
+}
+#me {
+  border: #c0c0c0 5px solid;
+  height: 270px;
+  display: inline;
+}
+.info {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, grey, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, grey, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, grey, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, grey, white, white); /* Standard syntax */
+  width: 509px;
+  height: 275px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 10px;
+  padding-bottom: 5px;
+}
+.info h2 {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#AFAEB3, grey, #AFAEB3); /* Standard syntax */
+  color: white;
+  padding: 5px;
+}
+.info p {
+  padding: 5px;
+}
+.info a {
+  padding: 5px;
+}
+.footer {
+  width: 960px;
+  height: 60px;
+  margin: 0px auto;
+}
+.footer p {
+  text-align: center;
+  margin: 5px;
+  font-size: 18px;
+}
+.footer a {
+  color: black;
+  font-size: 18px;
+  padding: 0 0 5px 5px;
+}
+.footer img {
+  width: 20px;
+  padding-top: 2px;
+}
+.content_box {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, grey, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, grey, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, grey, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, grey, white, white); /* Standard syntax */
+  width: 300px;
+  margin: 10px 17px 10px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.content_box h2 {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#AFAEB3, grey, #AFAEB3); /* Standard syntax */
+  color: white;
+  padding: 5px;
+}
+.content_box h3 {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#AFAEB3, grey, #AFAEB3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#AFAEB3, grey, #AFAEB3); /* Standard syntax */
+  color: white;
+  padding: 5px;
+}
+.content_box p {
+  padding: 10px;
+  text-align: justify;
+}
+.techimg {
+  width: 40px;
+  padding: 8px;
+}
+.highlight {
+  width: 300px;
+}
+.button {
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 10px 0 10px 100px;
+  border: 1px black solid;
+  background-color: #4CAF50;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+}
