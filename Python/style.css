@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 970px;
+  margin: 0px auto;
+}
+.top {
+  width: 970px;
+  height: 500px;
+  background-color: #265175;
+  border-bottom: 3px black solid;
+}
+.header {
+  height: 125px;
+  background-image: url(python.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  display: block;
+}
+.header p {
+  text-align: right;
+  padding: 5px 20px 5px 0;
+  color: white;
+  font-size: 12px;
+}
+.header span {
+  color: black;
+}
+.header a {
+  color: #D1B001;
+}
+.search {
+  float: right;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #444444;
+  box-shadow: 5px 5px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.search input[type=submit] {
+    background-color: #265175;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.search input[type=search] {
+    border: 1px solid grey;
+    height: 30px;
+    width: 150px;
+    margin: 15px 0 0 15px;
+    text-align: center;
+    color: grey;
+}
+.nav {
+  width: 80%;
+  height: 30px;
+  margin: 0px auto;
+  background: #3877AB;
+  background: -webkit-linear-gradient(#3877AB, #4A7FAB, #3877AB); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3877AB, #4A7FAB, #3877AB); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3877AB, #4A7FAB, #3877AB); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#3877AB, #4A7FAB, #3877AB); /* Standard syntax */
+
+  border-radius: 10px;
+  vertical-align: top;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: 2px 2px;
+
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Arial;
+  padding: 0 20px 0 0;
+}
+.main {
+  height: 400px;
+  color: white;
+  text-align: left;
+  padding: 10px 0px;
+  display: inline-block;
+}
+.sidebar {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  padding: 20px;
+  margin: 0 10px 0 120px;
+}
+.sidebar a {
+  color: white;
+  font-size: 16px;
+}
+.content {
+  width: 500px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+}
+.content ul {
+  list-style-type: none;
+  color: #D1B001;
+  font-size: 20px;
+  font-style: italic;
+  margin: 5px;
+}
+.content ul li {
+  margin: 5px;
+}
+.middle {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.block {
+  width: 400px;
+  border-top: #75A8D3 3px solid;
+  display: inline-block;
+  margin: 10px 10px;
+  text-align: left;
+  padding: 10px;
+  vertical-align: top;
+}
+.block h4 {
+  padding: 5px;
+}
+.block p {
+  font-size: 14px;
+  padding: 5px;
+}
+.block ul {
+  list-style-type: square;
+  margin-left: 30px;
+}
+.block a {
+  color: #76A9D3;
+  font-size: 14px;
+  text-decoration: none;
+}
+.bottom {
+  background: #265175;
+  background: -webkit-linear-gradient(#265175, #3674A9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#265175, #3674A9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#265175, #3674A9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#265175, #3674A9); /* Standard syntax */
+  height: 75px;
+  text-align: center;
+  color: #76A9D3;
+  padding: 50px 0 0 0;
+}
+.bottom a {
+  color: inherit;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.bottom p {
+  margin-top: 20px;
+  font-size: 10px;
+}
