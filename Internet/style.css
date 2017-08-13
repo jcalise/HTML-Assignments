@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #2A689E;
+  text-decoration: none;
+}
+.container {
+  width: 970px;
+  height: 1000px;
+  margin: 0px auto;
+  background-image: url(img/globe.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.blue {
+  color: #2B6A9E;
+}
+.red {
+  color: #D72727;
+}
+.title {
+  padding: 25px 0 0 110px;
+  font-size: 50px;
+  display: inline;
+}
+.subtitle {
+  height: 30px;
+  padding: 10px;
+  font-size: 26px;
+  background: #2C6A9E;
+  background: -webkit-linear-gradient(#2C6A9E, #5484AB, #2C6A9E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#2C6A9E, #5484AB, #2C6A9E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#2C6A9E, #5484AB, #2C6A9E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2C6A9E, #5484AB, #2C6A9E); /* Standard syntax */
+  display: block;
+  color: white;
+}
+.main {
+  background: #E3E3E3;
+  background: -webkit-linear-gradient(#E3E3E3, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E3E3E3, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E3E3E3, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E3E3E3, white); /* Standard syntax */
+
+}
+.sidebar {
+  width: 190px;
+  display: inline-block;
+}
+.sidebar p {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 170px;
+    margin: 3px 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.button_blue {
+  background: #6499C1;
+  background: -webkit-linear-gradient(#6499C1, #2E6CA1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#6499C1, #2E6CA1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#6499C1, #2E6CA1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#6499C1, #2E6CA1); /* Standard syntax */
+}
+.button_orange {
+  background: #E9AA5A;
+  background: -webkit-linear-gradient(#E9AA5A, #ED7A0D); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E9AA5A, #ED7A0D); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E9AA5A, #ED7A0D); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E9AA5A, #ED7A0D); /* Standard syntax */
+
+}
+.sidebar hr {
+  width: 90%;
+  margin: 0px auto;
+}
+.ad {
+  background-image: url(img/ad_background.png);
+  background-size: 190px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.ad h4 {
+  color: white;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.ad img {
+  width: 80px;
+}
+.button_lightblue {
+  background: #78CFDE;
+  background: -webkit-linear-gradient(#78CFDE, #0AC1DD); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#78CFDE, #0AC1DD); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#78CFDE, #0AC1DD); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#78CFDE, #0AC1DD); /* Standard syntax */
+  margin: 10px 5px;
+  width: 160px;
+}
+.content {
+  vertical-align: top;
+  width: 700px;
+  display: inline-block;
+  padding: 5px 5px 5px 40px;
+  font-size: 12px;
+}
+.contact {
+  background-image: url(img/phone.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  height: 55px;
+  vertical-align: top;
+  margin: 0 0 0 530px;
+  padding: 0 0 0 35px;
+  display: inline-block;
+  font-size: 10px;
+}
+.contact p {
+  display: inline;
+  text-align: center;
+}
+.contact span {
+  color: #00C0DD;
+  font-size: 20px;
+  font-weight: bold;
+}
+.content h2 {
+  color: #2E6C9F;
+  font-size: 18px;
+}
+.content ul {
+  padding: 5px 0 0 30px;
+}
+.content ul li {
+  padding: 5px;
+}
+.cent {
+  padding: 0 240px;
+  margin: 5px;
+}
+.content ol {
+  padding: 5px 0 0 30px;
+}
+.content ol li {
+  padding: 5px;
+}
+.info_box {
+  background-image: url(img/html.png);
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border: #0087DD 5px solid;
+  box-shadow: 2px 2px;
+  padding: 10px 10px 10px 160px;
+  vertical-align: top;
+  height: 150px;
+}
+.info_box h2 {
+  display: inline;
+}
+.info_box img {
+  display: inline;
+}
+.info_box p {
+  display: inline;
+}
